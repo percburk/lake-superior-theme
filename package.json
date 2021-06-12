@@ -1,0 +1,21 @@
+{
+    "name": "lake-superior-theme",
+    "displayName": "Lake Superior Theme",
+    "description": "Custom color theme that evokes trips to the North Shore",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Lake Superior Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Lake Superior Theme-color-theme.json"
+            }
+        ]
+    }
+}
